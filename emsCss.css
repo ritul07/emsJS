@@ -1,0 +1,57 @@
+		tr td {
+		    border: solid;
+		    font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+
+		tr th {
+		    border: solid;
+		}
+
+		table {
+		    border: solid;
+		    border-collapse: collapse;
+		}
+
+		body {
+		    counter-reset: Serial;
+		}
+
+		#table {
+		    border-collapse: collapse;
+		}
+
+		#table tr td:first-child:before {
+		    counter-increment: Serial;
+		    content: counter(Serial);
+		}
+
+		#input {
+		    position: relative;
+		    left: 60%;
+		    bottom: 13px;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		    padding-top: 7px;
+		    padding-bottom: 7px;
+		    border: groove;
+		    border-radius: 20px;
+		}
+
+		.btn {
+		    padding-left: 18px;
+		    padding-right: 18px;
+		    padding-top: 4px;
+		    padding-bottom: 4px;
+		    color: blue;
+		    font-weight: bolder;
+		    letter-spacing: 3px;
+		    width: 90%;
+		    margin-left: 5%;
+		    text-align: center;
+		}
+
+		.btn:hover {
+		    background-color: black;
+		    color: white;
+
+		}
